@@ -6,6 +6,7 @@ int n;
 int first[26][128], follow[26][128];
 void computeFirst(){
     int changed=1;
+    
     while(changed){
         changed=0;
         for(int p=0;p<n;p++){
